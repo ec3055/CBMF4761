@@ -12,7 +12,7 @@ We modify DeepTFni's original scATAC-only model to include scRNA-seq and TF-targ
 All sequencing data used in this study was obtained from the Gene Expression Omnibus repository under the accession code [GSE219281](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219281).
 
 ## Description
-- *Data folder*: contains zipped files for processed scATAC-seq/scRNA-seq data per patient and per cohort subsets, sequencing metadata, TF-target gene binary matrix, and txts from the HOCOMOCO and hTFtarget databases.
+- *Data folder*: contains zipped files for sample processed scATAC-seq/scRNA-seq data, sequencing metadata, TF-target gene binary matrix, and txts from the HOCOMOCO and hTFtarget databases.
 - *define_tf_target_matrix.ipynb*: generates the TF-target binary matrix
 - *preprocess_atac_and_rna_data.ipynb*: preprocesses the raw scATAC-seq/scRNA-seq data into count matrices for each patient and then combines and subsets them according to cohort and cell type
 - *generating_network_graphs.ipynb*: creates graph networks figures to visualize the differences between the TRN skeleton and model's predicted output
