@@ -12,7 +12,7 @@ We modified DeepTFni's original scATAC-only model to include scRNA-seq and TF-ta
 All sequencing data used in this study was obtained from the Gene Expression Omnibus repository under the accession code [GSE219281](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219281).
 
 ## Requirements
-DeepTFni is mostly written in Python 3.6 and some preprocessing steps are done in Perl 5. It can be run on a single desktop using Linux platform. To run DeepTFni, some prerequisites need to be installed. A detailed dependency list is:
+Our version of DeepTFni is mostly written in Python 3.6 and run on Google Colab. A detailed dependency list includes:
 
 - pytorch 1.7.1
 - numpy 1.8.11
@@ -34,6 +34,6 @@ DeepTFni is mostly written in Python 3.6 and some preprocessing steps are done i
 - *results folder*: contains sample TRN skeletons and corresponding outputted model predictions
 - *define_tf_target_matrix.ipynb*: generates the TF-target binary matrix
 - *preprocess_atac_and_rna_data.ipynb*: processes the raw scATAC-seq/scRNA-seq data from GEO GSE219281 into count matrices for each patient and then combines and subsets them according to cohort and cell type
-- *concatenate_rnaseq*: horizontally concatenate scRNA-seq data to TF RP score matrix
+- *concatenate_rnaseq.py*: horizontally concatenate scRNA-seq data to TF RP score matrix
 - *generating_network_graphs.ipynb*: creates graph networks figures to visualize the differences between the TRN skeleton and model's predicted output
 - *supplementary.ipynb*: compute model performance metrics and generate confusion matrices/barplots
