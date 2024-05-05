@@ -34,5 +34,6 @@ DeepTFni is mostly written in Python 3.6 and some preprocessing steps are done i
 - *results folder*: contains sample TRN skeletons and corresponding outputted model predictions
 - *define_tf_target_matrix.ipynb*: generates the TF-target binary matrix
 - *preprocess_atac_and_rna_data.ipynb*: processes the raw scATAC-seq/scRNA-seq data from GEO GSE219281 into count matrices for each patient and then combines and subsets them according to cohort and cell type
+- *concatenate_rnaseq*: horizontally concatenate scRNA-seq data to TF RP score matrix
 - *generating_network_graphs.ipynb*: creates graph networks figures to visualize the differences between the TRN skeleton and model's predicted output
 - *supplementary.ipynb*: compute model performance metrics and generate confusion matrices/barplots
