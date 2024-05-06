@@ -10,7 +10,7 @@ Nat Mach Intell 4, 389–400 (2022).
 
 We modified DeepTFni's original scATAC-only model to include scRNA-seq and TF-target gene relationships, allowing us to infer both TF-TF and TF-target gene relationships using a C9orf72-mediated ALS dataset.
 
-All sequencing data used in this study was obtained from the Gene Expression Omnibus repository under the accession code [GSE219281](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219281).
+All sequencing data used in this study was obtained from the Gene Expression Omnibus repository under the accession code [GSE219281](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219281). The reference genome hg19 should also be downloaded from [here](https://hgdownload.soe.ucsc.edu/downloads.html).
 
 ## Dependencies
 DeepTFni is a codebase consisting of a mix of languages: Python, R, Perl, and Bash. Various modifications have been made to accommodate our data and ensure correct execution. We primarily executed this code on Google Colab. The following libraries need to be installed:
