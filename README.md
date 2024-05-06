@@ -12,8 +12,8 @@ We modified DeepTFni's original scATAC-only model to include scRNA-seq and TF-ta
 
 All sequencing data used in this study was obtained from the Gene Expression Omnibus repository under the accession code [GSE219281](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219281).
 
-## Dependency
-DeepTFni is a codebase consisting of a mix of languages: Python, R, Perl, and Bash. Various modifications have been made to accommodate our data and ensure correct execution. We primarily executed this code on Google Colab.
+## Dependencies
+DeepTFni is a codebase consisting of a mix of languages: Python, R, Perl, and Bash. Various modifications have been made to accommodate our data and ensure correct execution. We primarily executed this code on Google Colab. The following libraries need to be installed:
 - pytorch 1.7.1
 - numpy 1.8.11
 - pandas 2.1.3
@@ -107,6 +107,8 @@ Contains accuracy/precision/recall calculation functions, graph plotting functio
 generating_network_graphs.ipynb: creates graph networks figures to visualize the differences between the TRN skeleton and model's predicted output
 
 Other files with name format of run_(experiment name).sh, ex. run_ALS_ATAC_Astro_subset.sh, are generated per experiment based on filename given to run_DeepTFni_csv.pl.
+
+final_report.pdf: project write up
 
 ## Running
 
